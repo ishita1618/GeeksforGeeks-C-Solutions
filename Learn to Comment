@@ -1,0 +1,9 @@
+void comment(int a,int b,int c)
+{    1 <=a <=10^6;
+    // 1 <=b <=10^6;
+     1 <=c <=10^6;
+    cout<<a<<endl;
+ //   cout<<b<<endl;
+    cout<<c<<endl ;
+   
+}
