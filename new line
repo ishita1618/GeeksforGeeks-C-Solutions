@@ -1,0 +1,16 @@
+//{ Driver Code Starts
+
+#include<iostream>
+using namespace std;
+
+void printNewLine();
+
+
+// } Driver Code Ends
+
+// Function to print each word in new line
+void printNewLine(){
+    
+    cout << "Geeks" <<endl << "for" << endl << "Geeks";
+    
+}
