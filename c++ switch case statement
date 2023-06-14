@@ -1,0 +1,33 @@
+//{ Driver Code Starts
+#include<bits/stdc++.h> 
+using namespace std; 
+
+// } Driver Code Ends
+class Solution{   
+public:
+    string isInRange(int N){
+        if (N >= 1 && N <= 10) {
+        string words[] = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
+        return words[N - 1];
+    } else {
+        return "not in range";
+    }
+
+    }
+};
+
+//{ Driver Code Starts.
+int main() 
+{ 
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int N;
+        cin >> N;
+        Solution ob;
+        cout << ob.isInRange(N) << endl;
+    }
+    return 0; 
+} 
+// } Driver Code Ends
